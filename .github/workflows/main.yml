@@ -38,6 +38,4 @@ jobs:
       - name: DeployingUsing Surge
         run: surge ./ saqibsoit.surge.sh --token ${{ secrets.SURGE_TOKEN }}
         
-     
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    
